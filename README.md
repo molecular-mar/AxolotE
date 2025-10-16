@@ -1,5 +1,6 @@
 # AxolotE
 
+![logo](./axolote_logo.png)
 **AxolotE** is a tool for the autogeneration of E coefficientes for expanding the product of Real Solid Harmonics into a linear combination of Hermite polynomials. Here we present two implementations: one using Mathematica, condensed in a Mathematica notebook, and the other using the SymPy package in Python. Both versions can generate code for the further usage of the expresions using other programming languages, with the current version showing how to produce C++ source files.
 
 # Usage
