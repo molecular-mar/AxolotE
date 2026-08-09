@@ -29,7 +29,7 @@ pragma_line = "#pragma acc routine seq"
 base_name = "ECoeff"
 
 function_names = []
-with open("ECoeffPy_Generated.cpp", 'a') as genCode:
+with open("AxolotE_Py.cpp", 'a') as genCode:
     for l in range(l_max+1):
         for lp in range(lp_max+1):
             nCoeff = 0
@@ -73,7 +73,7 @@ muCoords, std::array<double,3> nuCoords)")
 
 # Header files generation
 shutil.copyfile('starters/ECoeff_starter.h', 'AxolotE_Py.h')
-with open("AxolotePy.h", 'a') as genHeader:
+with open("AxolotE_Py.h", 'a') as genHeader:
     for function_name in function_names:
         genHeader.write(function_name + ";")
     genHeader.write("\n#endif")
