@@ -270,8 +270,8 @@
 (*We need to test if the coefficients are correct. For this, the explicit relation of the linear combination is evaluated using the generated expressions.*)
 
 
-(* ::Input:: *)
-(*Function to transform expresion in two spherical coordinates sets to cartesian . Note the variables used for the coordinates: rA and rB .*)
+(* ::Text:: *)
+(*Function  to  transform  expression  in  two  spherical  coordinates  sets  to  cartesian . Note  the  variables  used  for  the  coordinates : rA  and  rB .*)
 
 
 (* ::Input:: *)
